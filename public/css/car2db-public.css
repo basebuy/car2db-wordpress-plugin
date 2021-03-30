@@ -1,0 +1,42 @@
+.car2db-form .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.car2db-form .row:before {
+    display: table;
+    content: " ";
+}
+
+.car2db-form .row:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.car2db-form .col-sm-4, .car2db-form .col-sm-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.car2db-form .col-sm-4 {
+	width: 33.33333333%;
+}
+
+.car2db-form .col-sm-8 {
+    width: 66.66666667%;
+}
+
+.car2db-form label {
+	margin-top:10px;
+	display:inline-block;
+	/*font-size:80%;*/
+}
+
+.car2db-form .widget-description {
+	margin-bottom:10px;
+}
